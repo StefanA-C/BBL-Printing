@@ -16,13 +16,6 @@ fileobject.close()
 runPlantxt = ""
 points = input("How many runplan details would you like to enter? ")"""
 
-#if int(points) == 0:
- #   runPlantxt = """<p style='margin:0in;margin-bottom:.0001pt;font-size:15px;font-family:"Calibri",sans-serif;margin-left:.5in;text-indent:-.25in;'><span style="font-family:Symbol;">&middot;</span><span style='font-size:9px;font-family:"Times New Roman",serif;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>N/A</p>"""
-#else:    
- #   for i in range(int(points)):
-  #      currPoint = input("%i. " %(i+1))
-   #     runPlantxt = runPlantxt + """<p style='margin:0in;margin-bottom:.0001pt;font-size:15px;font-family:"Calibri",sans-serif;margin-left:.5in;text-indent:-.25in;'><span style="font-family:Symbol;">&middot;</span><span style='font-size:9px;font-family:"Times New Roman",serif;'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>"""+ currPoint + """</p>"""
-
 def sendEmail(ArrayWithAllInfo, runPlantxt):
     """
     Takes in whole array for one day and will email you (me) with the nicely formatted email that is ready to print.
