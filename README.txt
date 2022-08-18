@@ -1,3 +1,5 @@
+REQUIREMENTS
+
 In order to use the WO printing python program you must:
 1. Have python installed
 2. Have the PyPDF2 library installed
@@ -8,7 +10,6 @@ In order to use the WO printing python program you must:
 7. A couple hours to read through the code in case it breaks and you have to fix it (to do this you also need to install vscode or your fav IDE)
 
 -> Instructions on how to do all this is below
-
 
 
 Overall Printing Process:
@@ -23,8 +24,6 @@ Overall Printing Process:
 8. Prepares the email / title page with relevant information and opens the draft
 9. Prepares emptying email (all dehack WOs get emptying) and opens draft if possible
 10. Done
-
-
 
 
 Once Installed:
@@ -45,7 +44,3 @@ Once Installed:
 14. Print the page to save the settings as the defaults (DO NOT CHANGE THESE AS THEY WILL MESS UP THE PRINTING PROCESS)
 15. Log on to the outlook application so that the emails can be generated appropriately
 16. Good to go
-
-
-
-
