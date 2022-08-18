@@ -9,14 +9,6 @@ numOfWO = len(splitInfo)
 
 runPlan = []
 
-
-#for i in range(numOfWO):
-
- #   ArrayWithAllInfo.append(splitInfo[i].split("\t"))
-
-#fileobject.close()
-
-
 def EmpytingEmail(ArrayWithAllInfo):
     """
     Sends Empything Email
@@ -47,7 +39,6 @@ def EmpytingEmail(ArrayWithAllInfo):
     mail.Subject = 'Emptying Request for ' + betterdayte
 
     rqst = ""
-
 
 
     for i in range(len(ArrayWithAllInfo)):
